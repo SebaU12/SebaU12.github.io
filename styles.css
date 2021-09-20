@@ -14,6 +14,30 @@ header {
     margin: 20px;
 }
 
+h1,
+h2,
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    color: #7a3c0c;
+    -webkit-text-stroke: 0.5px #fd5a47;
+    margin: 20px 0 20px 0;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+    color: #770919;
+}
+
+ol {
+    margin-left: 40px;
+}
+
 #title {
     margin-top: 40px;
     margin-bottom: 20px;
@@ -32,6 +56,11 @@ header {
     padding: 10px 10px 10px 0;
     font-size: 30px;
     color: #aa4f35;
+}
+
+.searchear-a {
+    text-decoration: none;
+    color: rgb(239, 255, 96);
 }
 
 #img-center {
@@ -76,31 +105,7 @@ header {
     transform: rotate(270deg);
 }
 
-h1,
-h2,
-h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-h2 {
-    text-decoration: underline;
-    color: #7a3c0c;
-    -webkit-text-stroke: 0.5px #fd5a47;
-    margin: 20px 0 20px 0;
-    font-size: 35px;
-}
-
-h3 {
-    font-size: 28px;
-    color: #770919;
-}
-
-ol {
-    margin-left: 40px;
-}
-
-.probando {
+.container-article-tools {
     width: 250px;
     display: inline-block;
     margin-right: 2%;
