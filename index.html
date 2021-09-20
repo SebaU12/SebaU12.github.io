@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Personal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="section-searcher">
+        <ol>
+            <li><a href="#header" class="searchear-a">Inicio</a></li>
+            <li><a href="#profile" class="searchear-a">Yo</a></li>
+            <li><a href="#tools" class="searchear-a">Herramientas</a></li>
+            <li> <a href="#work" class="searchear-a">Equipo</a></li>
+            <li> <a href="#footer" class="searchear-a">Contacto</a></li>
+        </ol>
+    </div>
+    <header id="header">
+        <!--Agregar Header-->
+        <h1 id="title">Sebastián Lizárraga</h1>
+        <img id="img-center" src="/img/img-center.jpg" alt="imagen">
+    </header>
+    <hr>
+    <section id="profile">
+        <h2 class="sub-title">¿Quién soy?</h2>
+        <div class="container-div">
+            <p class="information">
+                Mi nombre es Sebastián Lizárraga y estudio para ser un científico de la programación, soy un estudiante muy apasionado por la programación, que busca constantemente aprender nuevas formas de mejorar sus habilidades y poder crear un mejor entorno de desarrollo.
+            </p>
+            <br>
+            <h3>Puedes encontrar proyectos mios en github</h3>
+            <br>
+            <div class="container-link">
+                <a class="profile-link" href="https://github.com/SebaU12"><img id="icon-image" src="/img/github.png" alt="github"></a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="tools">
+        <h2 class="sub-title">¿Que herramientas uso?</h2>
+        <div class="container-div">
+            <div class="probando">
+                <article class="container-article">
+                    <figure class="container-image">
+                        <div class="container-figure-tools">
+                            <img src="/img/vscode.png" alt="VSCode" class="image-tools">
+                            <div class="div-caption-tools">
+                                <figcaption class="caption-tools">VisualStudio Code</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </article>
+            </div>
+            <div class="probando">
+                <article class="container-article">
+                    <figure class="container-image">
+                        <div class="container-figure-tools">
+                            <img src="/img/postman.jpg" alt="Postman" class="image-tools">
+                            <div class="div-caption-tools">
+                                <figcaption class="caption-tools">Postman</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </article>
+            </div>
+            <div class="probando">
+                <article class="container-article">
+                    <figure class="container-image">
+                        <div class="container-figure-tools">
+                            <img src="/img/vim.png" alt="Vim" class="image-tools">
+                            <div class="div-caption-tools">
+                                <figcaption class="caption-tools">Vim</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </article>
+            </div>
+            <div class="probando">
+                <article class="container-article">
+                    <figure class="container-image">
+                        <div class="container-figure-tools">
+                            <img src="/img/hyper.png" alt="Hyper" class="image-tools">
+                            <div class="div-caption-tools">
+                                <figcaption class="caption-tools">Hyper</figcaption>
+                            </div>
+                        </div>
+                    </figure>
+                </article>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="work">
+        <h2 class="sub-title">Equipo de trabajo</h2>
+        <div class="container-div">
+            <h3>Team tenedor!!!</h3>
+            <div id="container-work-image">
+                <img src="/img/tenedor.png" id="work-image" alt="tenedor">
+            </div>
+            <!--Agregar fondo de tenedor-->
+            <div id="container-list">
+                <ul>
+                    <li class="work-list-info"> <a href="https://github.com/AleChris1">AleChris</a> </li>
+                    <li class="work-list-info"> <a href="https://github.com/IanCortez">IanCortez</a> </li>
+                    <li class="work-list-info"> <a href="https://github.com/YagoSilvaA">YagoSilvaA</a> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer id="footer">
+        <h2 class="sub-title">Contacto</h2>
+        <div class="container-footer">
+            <p>Puedes contactarme presionando el siguiente botón:</p>
+        </div>
+        <div class="container-footer">
+            <button id="btn-info" class="btn">Información</button>
+        </div>
+        <div class="container-footer">
+            <p>Y puedes presionar el siguiente botón para ir al inicio de la página:</p>
+        </div>
+        <div class="container-footer">
+            <button id="btn-back" class="btn">Volver</button>
+        </div>
+    </footer>
+    <script src="/main.js"></script>
+</body>
+
+</html>
